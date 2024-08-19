@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BBEditDocumentType</key>
+		<string>CodelessLanguageModule</string>
+
+    <key>BBLMLanguageDisplayName</key>
+    	<string>Meson</string>
+    <key>BBLMLanguageCode</key>
+    	<string>Mesn</string>
+    <key>BBLMColorsSyntax</key>
+    	<true/>
+    	
+    <key>BBLMSuffixMap</key>
+    	<array>
+    		<dict>
+    			<key>BBLMLanguageSuffix</key>
+    				<string>.build</string>
+    		</dict>
+    	</array>
+    	
+    <key>BBLMFileNamesToMatch</key>
+    	<array>
+    		<string>meson.build</string>
+    	</array>
+    	
+    <key>BBLMKeywordList</key>
+    <array>
+        <!-- Keywords -->
+        <string>project</string>
+        <string>meson_version</string>
+        <string>default_options</string>
+        <string>executable</string>
+        <string>library</string>
+        <string>shared_library</string>
+        <string>static_library</string>
+        <string>both_libraries</string>
+        <string>dependency</string>
+        <string>declare_dependency</string>
+        <string>find_library</string>
+        <string>include_directories</string>
+        <string>install_headers</string>
+        <string>install_man</string>
+        <string>subdir</string>
+        <string>subdir_done</string>
+        <string>configure_file</string>
+        <string>run_command</string>
+        <string>test</string>
+        <string>benchmark</string>
+        <string>install_data</string>
+        <string>install_subdir</string>
+        <string>custom_target</string>
+        <string>run_target</string>
+        <string>files</string>
+        <string>generator</string>
+        <string>import</string>
+        <string>warning</string>
+        <string>error</string>
+        <string>assert</string>
+        <string>environment</string>
+        <string>get_option</string>
+        <string>get_variable</string>
+        <string>set_variable</string>
+        <string>option</string>
+        <string>add_languages</string>
+        <string>build_target</string>
+        <string>vcs_tag</string>
+        <string>declare_dependency</string>
+        <string>find_program</string>
+    </array>
+    
+    <key>BBLMCommentLineDefault</key>
+    	<string>#</string>
+
+	<key>Language Features</key>
+	<dict>
+		<key>Identifier and Keyword Character Class</key>
+			<string>A-Za-z0-9_\?!</string>
+		<key>Open Line Comments</key>
+			<string>#</string>	
+	</dict>
+
+</dict>
+</plist>
